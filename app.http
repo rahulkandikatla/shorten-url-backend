@@ -1,0 +1,36 @@
+GET http://localhost:3004/users
+
+#######
+
+
+POST http://localhost:3004/register HTTP/1.1
+content-type: application/json
+
+{
+    "username": "rahul",
+    "password": "rahul123"
+}
+
+#######
+POST http://localhost:3004/login HTTP/1.1
+content-type: application/json
+
+{
+    "username": "rahul",
+    "password": "rahul123"
+}
+
+
+#######
+
+GET http://localhost:3004/OG1DOf2UE HTTP/1.1
+
+
+###
+
+POST http://localhost:3004/shorten HTTP/1.1
+content-type: application/json
+
+{
+    "longUrl": "https://www.amazon.in/?&ext_vrnc=hi&tag=googhydrabk1-21&ref=pd_sl_5szpgfto9i_e&adgrpid=58075519359&hvpone=&hvptwo=&hvadid=486462454211&hvpos=&hvnetw=g&hvrand=18378012592618317027&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=20453&hvtargid=kwd-64107830&hydadcr=14452_2154371&gclid=Cj0KCQiA0p2QBhDvARIsAACSOOPRm-k8DCVMYiRQyJXVR-zwm0wQVu6XV5RrEg35LFX_mADnZzqdVYsaAmAeEALw_wcB"
+}
